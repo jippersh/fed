@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shop2Go</title>
+  </head>
+  <body>
+    <nav class="zone blue sticky">
+      <ul class="main-nav">
+        <li><a href="">Shop2Go</a></li>
+        <li class="push"><img src="shopping-cart.png" id="myCart" alt="cart" style="width: 40px;"></li>
+        </ul>
+      </ul>      
+    </nav>
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="note9pro.jpg" style="width: 100%;">
+      <div class="text">Redmi Note 9 Pro</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="iphone11pro.jpg" style="width: 100%;">
+      <div class="text">iPhone 11 Pro</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="realme6pro.jpg" style="width: 100%;">
+      <div class="text">Realme 6 Pro</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <div id="app"></div>
+  
+
+  
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>My cart</p>
+       
+        <ul id="test">
+          Please add items to your cart.
+        </ul>
+        
+      </div>
+  
+  </div>
+
+  <script src="script.js"></script>
+  <script src="product.js"></script>
+  </body>
+</html>
